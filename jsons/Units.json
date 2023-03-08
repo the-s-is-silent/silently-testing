@@ -34,7 +34,7 @@
 		"cost": 70,
 		"requiredTech": "Bronze Working",
 		"replacementTextForUniques": "Can instantly remove Forests, Jungles or Marshes from tiles 3 times",
-		"uniques": ["Can instantly construct a [Remove Forest] improvement <[3] times> <after which this unit is consumed>", "Can instantly construct a [Remove Jungle] improvement <[3] times> <after which this unit is consumed>", "Can instantly construct a [Remove Marsh] improvement <[3] times> <after which this unit is consumed>"]
+		"uniques": ["Can [Remove Forest] [3] times", "Can [Remove Jungle] [3] times", "Can [Remove Marsh] [3] times"]
 	},
 	{
 		"name": "Machinist",
