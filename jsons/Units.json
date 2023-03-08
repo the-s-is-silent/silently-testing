@@ -43,6 +43,6 @@
 		"cost": 100,
 		"requiredTech": "Engineering",
 		"replacementTextForUniques": "Can instantly build Roads and Railroads, and can instantly build Forts 2 times",
-		"uniques": ["Can instantly construct a [All Road] improvement", "Can instantly construct a [Fort] improvement <[2] times> <after which this unit is consumed>"]
+		"uniques": ["Can instantly construct a [Road] improvement", "Can instantly construct a [Railroad] improvement", "Can instantly construct a [Fort] improvement <[2] times> <after which this unit is consumed>"]
 	},
 ]
