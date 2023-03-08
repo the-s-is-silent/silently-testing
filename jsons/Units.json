@@ -33,7 +33,6 @@
 		"movement": 2,
 		"cost": 70,
 		"requiredTech": "Bronze Working",
-		"replacementTextForUniques": "Can instantly remove Forests, Jungles or Marshes from tiles 3 times",
 		"uniques": ["Can [Remove Forest] [3] times", "Can [Remove Jungle] [3] times", "Can [Remove Marsh] [3] times"]
 	},
 	{
