@@ -41,6 +41,6 @@
 		"movement": 2,
 		"cost": 100,
 		"requiredTech": "Engineering",
-		"uniques": ["Can build [Road] improvements on tiles", "Can instantly construct a [Fort] improvement <[2] times> <after which this unit is consumed>", "[-50]% tile improvement construction time"]
+		"uniques": ["Can build [All Road] improvements on tiles", "Can instantly construct a [Fort] improvement <[2] times> <after which this unit is consumed>", "[-50]% tile improvement construction time"]
 	},
 ]
