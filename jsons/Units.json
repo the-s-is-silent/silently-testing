@@ -4,5 +4,5 @@
 		"movement": 2,
 		"cost": 70,
 		"requiredTech": "Agriculture",
-		"uniques": ["Can build [Land] improvements on tiles", "Can instantly construct a [All] improvement <[2] times>", "Can speed up construction of a building"]
-	},
+		"uniques": ["Can build [Land] improvements on tiles", "Can instantly construct a [All] improvement <[2] times>", "Can speed up construction of a building <[2] times>"]
+	}
