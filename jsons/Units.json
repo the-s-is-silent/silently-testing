@@ -1,13 +1,5 @@
 [
 //Due to the full list of instant improvements being far too long, the Builder unit will need to have its job split between units. Also, at this time there is no way to implement the Builder unit's function of instantly removing Forest/Jungle/Marsh tile features or the Military Engineer unit's function of instantly building Roads (Roads built this way are bugged and don't behave correctly) or removing Fallout, which presents just a slight bit of a problem...
-//Actually, let's try this one more time, and if it truly doesn't work...
-	{
-		"name": "Builder",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 50,
-		"uniques": ["Can instantly construct a [Land] improvement <[3] times> <after which this unit is consumed>"]
-	},
 	{
 		"name": "Agrarian",
 		"unitType": "Civilian",
