@@ -1,5 +1,5 @@
 [
-//Due to the full list of instant improvements being far too long, the Builder unit will need to have its job split between units, as follows:
+//Due to the full list of instant improvements being far too long, the Builder unit will need to have its job split between units. Also, at this time there is no way to implement the Builder unit's function of instantly removing Forest/Jungle/Marsh tile features or the Military Engineer unit's function of instantly removing Fallout, which presents just a slight bit of a problem...
 	{
 		"name": "Agrarian",
 		"unitType": "Civilian",
@@ -26,14 +26,6 @@
 		"requiredTech": "Trapping",
 		"replacementTextForUniques": "Can instantly build Trading posts or Camps 3 times",
 		"uniques": ["Can instantly construct a [Trading post] improvement <[3] times> <after which this unit is consumed>", "Can instantly construct a [Camp] improvement <[3] times> <after which this unit is consumed>"]
-	},
-	{
-		"name": "Renovator",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 70,
-		"requiredTech": "Bronze Working",
-		"uniques": ["Can [Remove Forest] [3] times", "Can [Remove Jungle] [3] times", "Can [Remove Marsh] [3] times"]
 	},
 	{
 		"name": "Machinist",
