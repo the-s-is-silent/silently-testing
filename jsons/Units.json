@@ -5,6 +5,7 @@
 		"movement": 2,
 		"cost": 70,
 		"requiredTech": "Agriculture",
+		"replacementTextForUniques": "Can instantly build Land improvements on tiles 3 times",
 		"uniques": ["Can build [Land] improvements on tiles", "Can instantly construct a [Farm] improvement <[3] times>", "Can instantly construct a [Lumber mill] improvement <[3] times>", "Can instantly construct a [Mine] improvement <[3] times>", "Can instantly construct a [Trading post] improvement <[3] times>", "Can instantly construct a [Camp] improvement <[3] times>", "Can instantly construct a [Oil well] improvement <[3] times>", "Can instantly construct a [Pasture] improvement <[3] times>", "Can instantly construct a [Plantation] improvement <[3] times>", "Can instantly construct a [Quarry] improvement <[3] times>"]
 	},
 ]
