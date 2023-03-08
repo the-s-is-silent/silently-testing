@@ -1,11 +1,18 @@
 [
-//Due to the full list of instant improvements being far too long, the Builder unit will need to have its job split between units. Also, at this time there is no way to implement the Builder unit's function of instantly removing Forest/Jungle/Marsh tile features or the Military Engineer unit's function of instantly removing Fallout, which presents just a slight bit of a problem...
+//Due to the full list of instant improvements being far too long, the Builder unit will need to have its job split between units. Also, at this time there is no way to implement the Builder unit's function of instantly removing Forest/Jungle/Marsh tile features or the Military Engineer unit's function of instantly building Roads (Roads built this way are bugged and don't behave correctly) or removing Fallout, which presents just a slight bit of a problem...
+//Actually, let's try this one more time, and if it truly doesn't work...
+	{
+		"name": "Builder",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 50,
+		"uniques": ["Can instantly construct a [Land] improvement <[3] times> <after which this unit is consumed>"]
+	},
 	{
 		"name": "Agrarian",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 70,
-		"requiredTech": "Agriculture",
+		"cost": 50,
 		"replacementTextForUniques": "Can instantly build Farms, Pastures or Plantations 3 times",
 		"uniques": ["Can instantly construct a [Farm] improvement <[3] times> <after which this unit is consumed>", "Can instantly construct a [Pasture] improvement <[3] times> <after which this unit is consumed>", "Can instantly construct a [Plantation] improvement <[3] times> <after which this unit is consumed>"]
 	},
@@ -13,7 +20,7 @@
 		"name": "Miner",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 70,
+		"cost": 50,
 		"requiredTech": "Mining",
 		"replacementTextForUniques": "Can instantly build Mines or Quarries 3 times",
 		"uniques": ["Can instantly construct a [Mine] improvement <[3] times> <after which this unit is consumed>", "Can instantly construct a [Quarry] improvement <[3] times> <after which this unit is consumed>"]
@@ -22,7 +29,7 @@
 		"name": "Trader",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 70,
+		"cost": 50,
 		"requiredTech": "Trapping",
 		"replacementTextForUniques": "Can instantly build Trading posts or Camps 3 times",
 		"uniques": ["Can instantly construct a [Trading post] improvement <[3] times> <after which this unit is consumed>", "Can instantly construct a [Camp] improvement <[3] times> <after which this unit is consumed>"]
@@ -31,7 +38,7 @@
 		"name": "Machinist",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 70,
+		"cost": 50,
 		"requiredTech": "Construction",
 		"replacementTextForUniques": "Can instantly build Lumber mills or Oil wells 3 times",
 		"uniques": ["Can instantly construct a [Lumber mill] improvement <[3] times> <after which this unit is consumed>", "Can instantly construct a [Oil well] improvement <[3] times> <after which this unit is consumed>"]
@@ -42,7 +49,6 @@
 		"movement": 2,
 		"cost": 100,
 		"requiredTech": "Engineering",
-		"replacementTextForUniques": "Can instantly build Roads and Railroads, and can instantly build Forts 2 times",
-		"uniques": ["Can instantly construct a [Road] improvement", "Can instantly construct a [Railroad] improvement", "Can instantly construct a [Fort] improvement <[2] times> <after which this unit is consumed>"]
+		"uniques": ["May build [All Road] improvements on tiles", "Can instantly construct a [Fort] improvement <[2] times> <after which this unit is consumed>", "[-50]% tile improvement construction time"]
 	},
 ]
