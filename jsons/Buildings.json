@@ -6,4 +6,13 @@
 		"uniques": ["Can only be built [in capital]", "[+25]% Production when constructing [Civilian] units [in all cities]", "Cost increases by [30] per owned city"],
 		"requiredTech": "Engineering"
 	},
+	{
+		"name": "HELIOS One",
+		"uniqueTo": "New Vegas",
+		"isNationalWonder": true,
+		"cost": 600,
+		"maintenance": 0,
+		"uniques": ["[+15]% [Production] in cities on [Desert] terrain", "[+15]% [Gold] in cities on [Desert] terrain", "Must be on [Desert]", "Requires a [Solar Plant] in at least [3] cities", "Cost increases by [30] per owned city"],
+		"requiredTech": "Ecology"
+	},
 ]
