@@ -1,0 +1,7 @@
+[
+	{
+		"name": "Satellite",
+		"movementType": "Air",
+		"uniques": ["Cannot be intercepted"]
+	},
+]
