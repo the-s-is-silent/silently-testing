@@ -1,6 +1,15 @@
 [
 //Due to the full list of instant improvements being far too long, the Builder unit will need to have its job split between units. Also, at this time there is no way to implement the Builder unit's function of instantly removing Forest/Jungle/Marsh tile features or the Military Engineer unit's function of instantly building Roads (Roads built this way are bugged and don't behave correctly) or removing Fallout, which presents just a slight bit of a problem...
 	{
+		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"obsoleteTech": "Industrialization",
+		"upgradesTo": "Civil Engineer",
+		"uniques": ["Can build [Land] improvements on tiles"],
+		"cost": 70
+	},
+	{
 		"name": "Agrarian",
 		"unitType": "Civilian",
 		"movement": 2,
@@ -41,7 +50,15 @@
 		"movement": 2,
 		"cost": 100,
 		"requiredTech": "Engineering",
-		"uniques": ["Can build [All Road] improvements on tiles", "Can instantly construct a [Fort] improvement <[2] times> <after which this unit is consumed>", "[-50]% tile improvement construction time"]
+		"uniques": ["Can build [All Road] improvements on tiles", "Can instantly construct a [Fort] improvement <[2] times> <after which this unit is consumed>", "[-50]% tile improvement construction time", "[+2] Movement <after discovering [Mobile Tactics]>"]
+	},
+	{
+		"name": "Civil Engineer",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 250,
+		"requiredTech": "Industrialization",
+		"uniques": ["Can build [Land] improvements on tiles", "[-33]% tile improvement construction time", "[+1] Movement <after discovering [Combustion]>"]
 	},
 	{
 		"name": "ARCHIMEDES II",
@@ -53,8 +70,7 @@
 		"range": 8,
 		"cost": 2000,
 		"requiredTech": "Satellites",
-		"requiredResource": "Aluminum",
-		"uniques": ["Limited to [1] per Civilization", "Blast radius [1]", "Destroys tile improvements when attacking", "Only available <if [HELIOS One] is constructed>"],
+		"uniques": ["Limited to [1] per Civilization", "Blast radius [1]", "Destroys tile improvements when attacking", "Consumes [5] [Aluminum]", "Only available <if [HELIOS One] is constructed>"],
 		"attackSound": "nuke"
 	},
 ]
