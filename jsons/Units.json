@@ -18,7 +18,7 @@
 		"uniques": ["Can instantly construct a [Mine] improvement <[3] times> <after which this unit is consumed>", "Can instantly construct a [Quarry] improvement <[3] times> <after which this unit is consumed>"]
 	},
 	{
-		"name": "Trader",
+		"name": "Huntsman",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 50,
@@ -42,5 +42,19 @@
 		"cost": 100,
 		"requiredTech": "Engineering",
 		"uniques": ["Can build [All Road] improvements on tiles", "Can instantly construct a [Fort] improvement <[2] times> <after which this unit is consumed>", "[-50]% tile improvement construction time"]
+	},
+	{
+		"name": "ARCHIMEDES II",
+		"unitType": "Satellite",
+		"uniqueTo": "New Vegas",
+		"movement": 1,
+		"strength": 500,
+		"rangedStrength": 500,
+		"range": 8,
+		"cost": 2000,
+		"requiredTech": "Satellites",
+		"requiredResource": "Aluminum",
+		"uniques": ["Limited to [1] per Civilization", "Blast radius [1]", "Destroys tile improvements when attacking", "Only available <if [HELIOS One] is constructed>"],
+		"attackSound": "nuke"
 	},
 ]
