@@ -3,17 +3,33 @@
 		"name": "Guerrilla Warfare",
 		"prerequisites": ["Survivalism III"],
 		"uniques": ["[+1] additional attacks per turn", "Can move after attacking"],
-		"unitTypes": ["Scout"]
+		"unitTypes": ["Scout"],
+		"column": 10,
+		"row": 4
 	},
 	{
 		"name": "Convoy",
-		"prerequisites": ["Boarding Party II"],
+		"prerequisites": ["Boarding Party II", "Targeting II"],
 		"uniques": ["[+15]% Strength <when adjacent to a [{Military} {Water}] unit>"],
-		"unitTypes": ["Melee Water"]
+		"unitTypes": ["Melee Water", "Ranged Water"],
+		"column": 11,
+		"row": 5
 	},
 	{
 		"name": "Orbital Bombardment",
 		"uniques": ["[+10]% Strength <when attacking>"],
 		"unitTypes": ["Satellite"]
+	},
+	{
+		"name": "Discoverer",
+		"uniques": ["This unit gains [30] Experience <upon discovering a Natural Wonder>"]
+	},
+	{
+		"name": "Leadership",
+		"prerequisites": ["Blitz", "March"],
+		"uniques": ["[+15]% Strength for [Military] units within [2] tiles"],
+		"unitTypes": ["Sword", "Mounted", "Gunpowder"],
+		"column": 10,
+		"row": 4
 	},
 ]
