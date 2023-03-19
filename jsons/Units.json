@@ -71,7 +71,7 @@
 		"cost": 25,
 		"obsoleteTech": "Iron Working",
 		"upgradesTo": "Elite Scout",
-		"uniques": ["Never appears as a Barbarian unit", "Normal vision when embarked", "Defense bonus when embarked", "Double movement in [Coast]"],
+		"uniques": ["Normal vision when embarked", "Defense bonus when embarked", "Double movement in [Coast]"],
 		"promotions": ["Amphibious", "Discoverer", "Ignore terrain cost", "March", "Scouting I"],
 		"attackSound": "nonmetalhit"
 	},
@@ -84,7 +84,7 @@
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Steel",
 		"upgradesTo": "Explorer",
-		"uniques": ["Never appears as a Barbarian unit", "Normal vision when embarked", "Defense bonus when embarked", "Double movement in [Coast]"],
+		"uniques": ["Normal vision when embarked", "Defense bonus when embarked", "Double movement in [Coast]"],
 		"promotions": ["Amphibious", "Discoverer", "Ignore terrain cost", "March", "Scouting I"],
 		"attackSound": "metalhit"
 	},
@@ -190,7 +190,7 @@
 		"range": 8,
 		"cost": 2000,
 		"requiredTech": "Satellites",
-		"uniques": ["Limited to [1] per Civilization", "Blast radius [1]", "Destroys tile improvements when attacking", "Consumes [5] [Aluminum]", "Only available <if [HELIOS One] is constructed>"],
+		"uniques": ["Limited to [1] per Civilization", "Destroys tile improvements when attacking", "Consumes [5] [Aluminum]", "Only available <if [HELIOS One] is constructed>"],
 		"attackSound": "nuke"
 	},
 ]
