@@ -22,14 +22,14 @@
 	},
 	{
 		"name": "Discoverer",
-		"uniques": ["This unit gains [30] Experience <upon discovering a Natural Wonder>"]
+		"uniques": ["This unit gains [30] XP <upon discovering a Natural Wonder>"]
 	},
 	{
 		"name": "Leadership",
 		"prerequisites": ["Blitz", "March"],
-		"uniques": ["[+15]% Strength for [Military] units within [2] tiles"],
+		"uniques": ["[+50]% XP gained from combat", "[+20]% Strength", "[+15]% Strength bonus for [Military] units within [2] tiles"],
 		"unitTypes": ["Sword", "Mounted", "Gunpowder"],
-		"column": 10,
+		"column": 9,
 		"row": 4
 	},
 ]
