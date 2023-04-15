@@ -1,4 +1,12 @@
 [
+	{
+		"name": "Turncoat",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can move immediately once bought", "Rebel units may spawn <by consuming this unit>"],
+		"cost": 1,
+		"hurryCostModifier": -99
+	},
 //Units under consideration for a potential "5th and 6th Unique Components" mod
 	{
 		"name": "Siraku",
