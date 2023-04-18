@@ -1,10 +1,42 @@
 [
 	{
-		"name": "Public Works Administration",
+		"name": "Tabernacle",
+		"replaces": "Temple",
+		"uniqueTo": "Deseret", 
+		"faith": 2,
+		"culture": 2,
+		"maintenance": 2,
+		"cost": 100,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Shrine",
+		"requiredTech": "Philosophy",
+		"uniques": ["Hidden when religion is disabled", "[+25]% Natural religion spread [in this city]"]
+	},
+	{
+		"name": "Salt Lake Temple",
+		"replaces": "Grand Temple",
+		"uniqueTo": "Deseret",
 		"cost": 125,
+		"culture": 1,
+		"faith": 8,
 		"isNationalWonder": true,
-		"uniques": ["Can only be built [in capital]", "[+25]% Production when constructing [Civilian] units [in all cities]", "Cost increases by [30] per owned city"],
-		"requiredTech": "Engineering"
+		"uniques": ["Gain a free [Enhancer] belief", "Requires a [Temple] in all cities", "Cost increases by [30] per owned city",
+			"[+100]% Natural religion spread [in this city]", "Hidden when religion is disabled", "Can only be built [in holy cities]"]
+		"requiredTech": "Theology"
+	},
+	{
+		"name": "Bishop's Storehouse",
+		"replaces": "Windmill", //change to Caravansary when BNW content is properly implemented
+		"uniqueTo": "Deseret",
+		"food": 2,
+		"production": 2,
+		"happiness": 2,
+		"specialistSlots": {"Engineer": 1},
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+10]% Production when constructing [All] buildings [in this city]", "[+1 Food] from [Cattle] tiles [in this city]",
+			"[+1 Food] from [Sheep] tiles [in this city]", "[+1 Food] from [Wheat] tiles [in this city]"]
+		"requiredTech": "Economics"
 	},
 	{
 		"name": "HELIOS One",
