@@ -23,9 +23,11 @@
 		"innerColor": [177, 157, 63],
 		"preferredReligion": "Mormonism",
 		"uniqueName": "The Mormon Exodus",
-		"uniqueText": "All land units have double movement speed on Desert and Plains terrain. Cities founded on these terrains receive +1 Faith.",
-		"uniques": ["[Land] units gain the [Mormon Exodus] promotion", "[+1 Faith] in cities on [Desert] terrain", "[+1 Faith] in cities on [Plains] terrain"],
-		"cities": ["Salt Lake City", "West Valley City", "Ogden", "Provo", "Cottonwood Heights", "West Jordan", "Fillmore", "St. George", "Grand Junction",
+		"uniqueText": "All land units have double movement speed on Desert and Plains terrain. Cities founded next to these terrains generate extra Faith.",
+		"uniques": ["[Land] units gain the [Mormon Exodus] promotion",
+			"[+1 Faith] [in all cities] <with [1] to [6] neighboring [Desert] tiles>",
+			"[+1 Faith] [in all cities] <with [1] to [6] neighboring [Plains] tiles>"],
+		"cities": ["Salt Lake City", "Ogden", "Provo", "West Valley City", "Cottonwood Heights", "West Jordan", "Fillmore", "St. George", "Grand Junction",
 			"Bountiful", "Draper", "Farmington", "Emigration Canyon", "Battle Creek", "Cedar City", "Manti", "Santaquin", "Spanish Fork", "Brigham City",
 			"Orem", "Lehi", "Ephraim", "Hyrum", "Parowan", "Tooele", "Moab", "Heber City", "Logan", "Taylorsville", "Centerville", "Grantsville", "Wellsville"]
 	}
